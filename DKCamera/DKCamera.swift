@@ -1151,7 +1151,7 @@ public extension Bundle {
     
     class func cameraBundle() -> Bundle {
         let assetPath = Bundle(for: DKDefaultCameraResource.self).resourcePath!
-        return Bundle(path: (assetPath as NSString).appendingPathComponent("DKCameraResource.bundle"))!
+        return Bundle(path: (assetPath as NSString).appendingPathComponent("DKCameraResource.bundle"))
     }
     
 }
