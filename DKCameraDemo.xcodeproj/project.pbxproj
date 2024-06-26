@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C80BAD61E797AC700FC9146 /* DKCameraResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C80BAD51E797AC700FC9146 /* DKCameraResource.swift */; };
-		9C0FA1C51B93468E0020B5FF /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FA1C41B93468E0020B5FF /* DKCameraResource.bundle */; };
 		9C50A7E71B921E640044F569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A7E61B921E640044F569 /* AppDelegate.swift */; };
 		9C50A7E91B921E640044F569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A7E81B921E640044F569 /* ViewController.swift */; };
 		9C50A7EC1B921E640044F569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C50A7EA1B921E640044F569 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 		9CA4ACAA2004D9D5008AFD7D /* DKCamera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA4ACA22004D9D5008AFD7D /* DKCamera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CA4ACAF2004D9F2008AFD7D /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A8071B921F1C0044F569 /* DKCamera.swift */; };
 		9CA4ACB02004D9F2008AFD7D /* DKCameraResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C80BAD51E797AC700FC9146 /* DKCameraResource.swift */; };
-		9CA4ACD92004E01D008AFD7D /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FA1C41B93468E0020B5FF /* DKCameraResource.bundle */; };
 		9CB062F220F48BFA006464FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB062EF20F48A9A006464FE /* AVFoundation.framework */; };
 		D29B0C36242C4CFA00BCEC18 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29B0C34242C4CFA00BCEC18 /* Launch Screen.storyboard */; };
 		D2B6CB332456AF2C00B6EBA1 /* DKCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B6CB312456AF2C00B6EBA1 /* DKCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,8 +57,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07E41ECB2C2C0CB800A41AF0 /* camera_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_cancel.png; sourceTree = "<group>"; };
+		07E41ECC2C2C0CB800A41AF0 /* camera_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_cancel@2x.png"; sourceTree = "<group>"; };
+		07E41ECD2C2C0CB800A41AF0 /* camera_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_cancel@3x.png"; sourceTree = "<group>"; };
+		07E41ECE2C2C0CB800A41AF0 /* camera_flash_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_flash_auto.png; sourceTree = "<group>"; };
+		07E41ECF2C2C0CB800A41AF0 /* camera_flash_auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_flash_auto@2x.png"; sourceTree = "<group>"; };
+		07E41ED02C2C0CB800A41AF0 /* camera_flash_auto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_flash_auto@3x.png"; sourceTree = "<group>"; };
+		07E41ED12C2C0CB800A41AF0 /* camera_flash_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_flash_off.png; sourceTree = "<group>"; };
+		07E41ED22C2C0CB800A41AF0 /* camera_flash_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_flash_off@2x.png"; sourceTree = "<group>"; };
+		07E41ED32C2C0CB800A41AF0 /* camera_flash_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_flash_off@3x.png"; sourceTree = "<group>"; };
+		07E41ED42C2C0CB800A41AF0 /* camera_flash_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_flash_on.png; sourceTree = "<group>"; };
+		07E41ED52C2C0CB800A41AF0 /* camera_flash_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_flash_on@2x.png"; sourceTree = "<group>"; };
+		07E41ED62C2C0CB800A41AF0 /* camera_flash_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_flash_on@3x.png"; sourceTree = "<group>"; };
+		07E41ED72C2C0CB800A41AF0 /* camera_switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_switch.png; sourceTree = "<group>"; };
+		07E41ED82C2C0CB800A41AF0 /* camera_switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_switch@2x.png"; sourceTree = "<group>"; };
+		07E41ED92C2C0CB800A41AF0 /* camera_switch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_switch@3x.png"; sourceTree = "<group>"; };
 		5C80BAD51E797AC700FC9146 /* DKCameraResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKCameraResource.swift; sourceTree = "<group>"; };
-		9C0FA1C41B93468E0020B5FF /* DKCameraResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DKCameraResource.bundle; sourceTree = "<group>"; };
 		9C50A7E11B921E640044F569 /* DKCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C50A7E51B921E640044F569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C50A7E61B921E640044F569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,9 +121,31 @@
 		07E41ECA2C2C042700A41AF0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9C0FA1C41B93468E0020B5FF /* DKCameraResource.bundle */,
+				07E41EDA2C2C0CB800A41AF0 /* Images */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		07E41EDA2C2C0CB800A41AF0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07E41ECB2C2C0CB800A41AF0 /* camera_cancel.png */,
+				07E41ECC2C2C0CB800A41AF0 /* camera_cancel@2x.png */,
+				07E41ECD2C2C0CB800A41AF0 /* camera_cancel@3x.png */,
+				07E41ECE2C2C0CB800A41AF0 /* camera_flash_auto.png */,
+				07E41ECF2C2C0CB800A41AF0 /* camera_flash_auto@2x.png */,
+				07E41ED02C2C0CB800A41AF0 /* camera_flash_auto@3x.png */,
+				07E41ED12C2C0CB800A41AF0 /* camera_flash_off.png */,
+				07E41ED22C2C0CB800A41AF0 /* camera_flash_off@2x.png */,
+				07E41ED32C2C0CB800A41AF0 /* camera_flash_off@3x.png */,
+				07E41ED42C2C0CB800A41AF0 /* camera_flash_on.png */,
+				07E41ED52C2C0CB800A41AF0 /* camera_flash_on@2x.png */,
+				07E41ED62C2C0CB800A41AF0 /* camera_flash_on@3x.png */,
+				07E41ED72C2C0CB800A41AF0 /* camera_switch.png */,
+				07E41ED82C2C0CB800A41AF0 /* camera_switch@2x.png */,
+				07E41ED92C2C0CB800A41AF0 /* camera_switch@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		9C50A7D81B921E640044F569 = {
@@ -327,7 +361,6 @@
 				9C50A7EC1B921E640044F569 /* Main.storyboard in Resources */,
 				9C50A7EE1B921E640044F569 /* Images.xcassets in Resources */,
 				D29B0C36242C4CFA00BCEC18 /* Launch Screen.storyboard in Resources */,
-				9C0FA1C51B93468E0020B5FF /* DKCameraResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA4ACD92004E01D008AFD7D /* DKCameraResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
