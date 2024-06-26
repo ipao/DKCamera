@@ -106,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E41ECA2C2C042700A41AF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C0FA1C41B93468E0020B5FF /* DKCameraResource.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9C50A7D81B921E640044F569 = {
 			isa = PBXGroup;
 			children = (
@@ -169,10 +177,10 @@
 		9C50A8061B921E900044F569 /* DKCamera */ = {
 			isa = PBXGroup;
 			children = (
+				07E41ECA2C2C042700A41AF0 /* Resources */,
 				9C50A8071B921F1C0044F569 /* DKCamera.swift */,
 				5C80BAD51E797AC700FC9146 /* DKCameraResource.swift */,
 				9CA1216E21A28B8600BD17D9 /* DKCameraLocationManager.swift */,
-				9C0FA1C41B93468E0020B5FF /* DKCameraResource.bundle */,
 			);
 			path = DKCamera;
 			sourceTree = SOURCE_ROOT;
